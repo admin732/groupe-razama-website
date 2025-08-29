@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupe Razama - Produits</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.svg" alt="Groupe Razama Logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Groupe</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="apropos.html">À Propos</a></li>
+                            <li><a href="sogsaco.html">SOGSACO</a></li>
+                            <li><a href="aspam.html">ASPAM</a></li>
+                            <li><a href="laayoune-protiene.html">LAAYOUNE PROTIENE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="activites.html">Activités</a></li>
+                    <li><a href="produits.html" class="active">Produits</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <h1 class="animate-on-scroll fade-in">Nos Produits</h1>
+        </div>
+    </section>
+
+    <!-- Products Introduction -->
+    <section class="products-intro">
+        <div class="container">
+            <p class="animate-on-scroll fade-in">
+                Découvrez notre gamme de produits marins de haute qualité, capturés et transformés
+                selon les normes les plus strictes pour garantir fraîcheur et saveur exceptionnelles.
+            </p>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-grid">
+        <div class="container">
+            <div class="products-filter animate-on-scroll fade-in">
+                <button class="filter-btn active" data-filter="all">Tous</button>
+                <button class="filter-btn" data-filter="frozen">Congelés</button>
+                <button class="filter-btn" data-filter="processed">Transformés</button>
+            </div>
+
+            <div class="products-container">
+                <!-- Product 1 - DORADE GRISE -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Dorade Grise Congelée"
+                     data-product-description="Dorade grise de qualité supérieure, pêchée dans les eaux atlantiques marocaines et congelée rapidement pour préserver sa fraîcheur et ses qualités nutritionnelles."
+                     data-product-details="Poisson noble riche en protéines et minéraux. Conditionnement disponible en cartons de 10kg, 15kg et 20kg. Température de conservation : -18°C."
+                     data-product-origin="Côtes atlantiques marocaines"
+                     data-product-season="Toute l'année"
+                     data-product-packaging="Cartons de 10kg, 15kg, 20kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Dorade Grise Congelée">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Dorade Grise Congelée</h3>
+                        <p>
+                            Dorade grise de qualité supérieure, parfaite pour diverses préparations culinaires.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 2 - BONITE -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Bonite Congelée"
+                     data-product-description="Bonite fraîchement pêchée et congelée immédiatement pour maintenir sa texture ferme et son goût authentique. Excellente source de protéines et d'oméga-3."
+                     data-product-details="Poisson pélagique riche en protéines et acides gras essentiels. Conditionnement en cartons de 12kg et 20kg. Idéal pour la restauration et l'industrie alimentaire."
+                     data-product-origin="Océan Atlantique"
+                     data-product-season="Avril à Octobre"
+                     data-product-packaging="Cartons de 12kg, 20kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Bonite Congelée">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bonite Congelée</h3>
+                        <p>
+                            Bonite de qualité premium, riche en protéines et oméga-3.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 3 - MULET -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Mulet Congelé"
+                     data-product-description="Mulet de qualité exceptionnelle, pêché dans les eaux côtières et congelé selon nos procédés de congélation rapide pour préserver toutes ses qualités."
+                     data-product-details="Poisson côtier riche en protéines et minéraux. Processus de congélation IQF. Traçabilité complète de la pêche à l'emballage."
+                     data-product-origin="Zones côtières atlantiques"
+                     data-product-season="Mars à Novembre"
+                     data-product-packaging="Cartons de 8kg, 15kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Mulet Congelé">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Mulet Congelé</h3>
+                        <p>
+                            Mulet de qualité exceptionnelle, parfait pour diverses préparations.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 4 - CHANCHARD -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Chanchard Congelé"
+                     data-product-description="Chanchard de haute qualité, pêché dans les zones riches de l'Atlantique marocain. Congelé rapidement pour préserver sa texture et ses propriétés nutritionnelles."
+                     data-product-details="Poisson pélagique riche en protéines et vitamines. Congélation rapide pour préserver la texture. Utilisé en restauration et industrie alimentaire."
+                     data-product-origin="Côtes atlantiques du Maroc"
+                     data-product-season="Mai à Septembre"
+                     data-product-packaging="Cartons de 10kg, 18kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Chanchard Congelé">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Chanchard Congelé</h3>
+                        <p>
+                            Chanchard de haute qualité, parfait pour l'industrie alimentaire.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 9 - SAROA SALPA -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Saroa Salpa Congelée"
+                     data-product-description="Saroa Salpa de qualité premium, pêchée dans les eaux atlantiques et congelée immédiatement pour préserver sa fraîcheur et ses qualités nutritionnelles."
+                     data-product-details="Poisson méditerranéen riche en protéines et minéraux. Conditionnement disponible en cartons de 8kg, 12kg et 15kg. Température de conservation : -18°C."
+                     data-product-origin="Côtes atlantiques marocaines"
+                     data-product-season="Juin à Octobre"
+                     data-product-packaging="Cartons de 8kg, 12kg, 15kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Saroa Salpa Congelée">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Saroa Salpa Congelée</h3>
+                        <p>
+                            Saroa Salpa de qualité premium, parfaite pour diverses préparations.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 10 - SARDINELLA -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Sardinella Congelée"
+                     data-product-description="Sardinella fraîchement pêchée et congelée selon nos standards de qualité les plus élevés. Excellente source de protéines et d'acides gras oméga-3."
+                     data-product-details="Poisson pélagique riche en protéines et acides gras essentiels. Conditionnement en cartons de 10kg et 15kg. Idéal pour la restauration et l'industrie alimentaire."
+                     data-product-origin="Océan Atlantique"
+                     data-product-season="Toute l'année"
+                     data-product-packaging="Cartons de 10kg, 15kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Sardinella Congelée">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sardinella Congelée</h3>
+                        <p>
+                            Sardinella de qualité supérieure, riche en oméga-3 et protéines.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 11 - MAQUEREAU ENT -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Maquereau Entier Congelé"
+                     data-product-description="Maquereau entier de qualité exceptionnelle, pêché dans les eaux froides de l'Atlantique et congelé entier pour préserver toutes ses qualités nutritionnelles."
+                     data-product-details="Maquereau entier non éviscéré, riche en oméga-3 et protéines. Processus de congélation IQF. Traçabilité complète de la pêche à l'emballage."
+                     data-product-origin="Zones de pêche contrôlées - Atlantique"
+                     data-product-season="Septembre à Mars"
+                     data-product-packaging="Cartons de 12kg, 20kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Maquereau Entier Congelé">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Maquereau Entier Congelé</h3>
+                        <p>
+                            Maquereau entier de qualité exceptionnelle, parfait pour l'industrie.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 12 - MAQUEREAU HGT -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Maquereau HGT Congelé"
+                     data-product-description="Maquereau HGT (Head, Guts, Tail removed) de haute qualité, préparé selon les standards internationaux et congelé pour préserver sa fraîcheur."
+                     data-product-details="Maquereau éviscéré sans tête ni queue, prêt à l'emploi. Riche en protéines et vitamines. Congélation rapide pour préserver la texture."
+                     data-product-origin="Côtes atlantiques du Maroc"
+                     data-product-season="Octobre à Avril"
+                     data-product-packaging="Cartons de 10kg, 15kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Maquereau HGT Congelé">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Maquereau HGT Congelé</h3>
+                        <p>
+                            Maquereau HGT prêt à l'emploi, parfait pour la transformation.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 13 - POMPANEAU -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Pompaneau Congelé"
+                     data-product-description="Pompaneau de qualité premium, pêché dans les eaux atlantiques et congelé immédiatement pour préserver sa texture délicate et ses qualités nutritionnelles."
+                     data-product-details="Poisson noble riche en protéines et minéraux. Conditionnement disponible en cartons de 8kg, 12kg et 15kg. Température de conservation : -18°C."
+                     data-product-origin="Côtes atlantiques marocaines"
+                     data-product-season="Avril à Septembre"
+                     data-product-packaging="Cartons de 8kg, 12kg, 15kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Pompaneau Congelé">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Pompaneau Congelé</h3>
+                        <p>
+                            Pompaneau de qualité premium, parfait pour la haute gastronomie.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 14 - BOGUE -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Bogue Congelée"
+                     data-product-description="Bogue fraîchement pêchée et congelée selon nos standards de qualité. Excellente source de protéines et parfaite pour diverses préparations culinaires."
+                     data-product-details="Poisson côtier riche en protéines et minéraux. Conditionnement en cartons de 10kg et 15kg. Idéal pour la restauration et l'industrie alimentaire."
+                     data-product-origin="Océan Atlantique"
+                     data-product-season="Mai à Novembre"
+                     data-product-packaging="Cartons de 10kg, 15kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Bogue Congelée">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Bogue Congelée</h3>
+                        <p>
+                            Bogue de qualité supérieure, parfaite pour diverses préparations.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 15 - MAQUEREAU ANIMALE -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Maquereau Animale Congelé"
+                     data-product-description="Maquereau destiné à l'alimentation animale, de qualité contrôlée et congelé selon nos procédés standards pour l'industrie de l'alimentation animale."
+                     data-product-details="Maquereau de qualité industrielle, riche en protéines. Processus de congélation adapté. Destiné à l'alimentation animale et aquaculture."
+                     data-product-origin="Zones de pêche contrôlées - Atlantique"
+                     data-product-season="Toute l'année"
+                     data-product-packaging="Cartons de 15kg, 20kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Maquereau Animale Congelé">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Maquereau Animale Congelé</h3>
+                        <p>
+                            Maquereau de qualité industrielle pour l'alimentation animale.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 16 - SARDINE ENT -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Sardine Entière Congelée"
+                     data-product-description="Sardine entière de qualité exceptionnelle, pêchée dans les eaux atlantiques marocaines et congelée entière pour préserver toutes ses qualités nutritionnelles."
+                     data-product-details="Sardine entière non éviscérée, riche en oméga-3 et protéines. Processus de congélation IQF. Traçabilité complète de la pêche à l'emballage."
+                     data-product-origin="Côtes atlantiques marocaines"
+                     data-product-season="Toute l'année"
+                     data-product-packaging="Cartons de 10kg, 15kg, 20kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Sardine Entière Congelée">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sardine Entière Congelée</h3>
+                        <p>
+                            Sardine entière de qualité exceptionnelle, riche en oméga-3.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 17 - SARDINE HGT -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Sardine HGT Congelée"
+                     data-product-description="Sardine HGT (Head, Guts, Tail removed) de haute qualité, préparée selon les standards internationaux et congelée pour préserver sa fraîcheur."
+                     data-product-details="Sardine éviscérée sans tête ni queue, prête à l'emploi. Riche en oméga-3 et protéines. Congélation rapide pour préserver la texture."
+                     data-product-origin="Côtes atlantiques du Maroc"
+                     data-product-season="Toute l'année"
+                     data-product-packaging="Cartons de 10kg, 15kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Sardine HGT Congelée">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sardine HGT Congelée</h3>
+                        <p>
+                            Sardine HGT prête à l'emploi, parfaite pour la transformation.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 18 - SARDINE ANIMALE -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Sardine Animale Congelée"
+                     data-product-description="Sardine destinée à l'alimentation animale, de qualité contrôlée et congelée selon nos procédés standards pour l'industrie de l'alimentation animale."
+                     data-product-details="Sardine de qualité industrielle, riche en protéines. Processus de congélation adapté. Destinée à l'alimentation animale et aquaculture."
+                     data-product-origin="Zones de pêche contrôlées - Atlantique"
+                     data-product-season="Toute l'année"
+                     data-product-packaging="Cartons de 15kg, 20kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Sardine Animale Congelée">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Sardine Animale Congelée</h3>
+                        <p>
+                            Sardine de qualité industrielle pour l'alimentation animale.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 19 - DECHET ENT -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Déchet Entier Congelé"
+                     data-product-description="Déchets de poisson entiers destinés à l'alimentation animale et à la transformation industrielle, congelés selon nos standards de qualité."
+                     data-product-details="Déchets de poisson de qualité industrielle, riches en protéines. Processus de congélation adapté. Destinés à l'alimentation animale et transformation."
+                     data-product-origin="Zones de transformation - Maroc"
+                     data-product-season="Toute l'année"
+                     data-product-packaging="Cartons de 20kg, 25kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Déchet Entier Congelé">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Déchet Entier Congelé</h3>
+                        <p>
+                            Déchets de poisson pour l'alimentation animale et transformation.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 20 - DECHET EEE -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Déchet EEE Congelé"
+                     data-product-description="Déchets de poisson EEE (Éviscéré, Étêté, Équeuté) destinés à l'alimentation animale et à la transformation industrielle."
+                     data-product-details="Déchets de poisson préparés, de qualité industrielle. Processus de congélation adapté. Destinés à l'alimentation animale et transformation."
+                     data-product-origin="Zones de transformation - Maroc"
+                     data-product-season="Toute l'année"
+                     data-product-packaging="Cartons de 18kg, 22kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Déchet EEE Congelé">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Déchet EEE Congelé</h3>
+                        <p>
+                            Déchets EEE pour l'alimentation animale et transformation.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 21 - AUXIDE -->
+                <div class="product-card animate-on-scroll fade-in" data-category="frozen"
+                     data-product-name="Auxide Congelé"
+                     data-product-description="Auxide de qualité premium, pêché dans les eaux atlantiques et congelé immédiatement pour préserver sa fraîcheur et ses qualités nutritionnelles."
+                     data-product-details="Poisson pélagique riche en protéines et acides gras essentiels. Conditionnement en cartons de 12kg et 18kg. Idéal pour la restauration et l'industrie alimentaire."
+                     data-product-origin="Océan Atlantique"
+                     data-product-season="Mars à Octobre"
+                     data-product-packaging="Cartons de 12kg, 18kg">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.28.jpeg" alt="Auxide Congelé">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Auxide Congelé</h3>
+                        <p>
+                            Auxide de qualité premium, riche en protéines et acides gras.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 22 - Processed Products Start -->
+                <div class="product-card animate-on-scroll fade-in" data-category="processed"
+                     data-product-name="Farine de Poisson pour Alimentation Animale"
+                     data-product-description="Farine de poisson premium non destinée à la consommation humaine, spécialement conçue comme matière première de haute qualité pour l'alimentation animale et l'aquaculture. Notre produit respecte rigoureusement les normes sanitaires européennes les plus strictes et bénéficie d'une traçabilité complète depuis la matière première jusqu'au produit fini. Référence produit : FT-MQ-04-A."
+                     data-product-details="📋 SPÉCIFICATIONS TECHNIQUES DÉTAILLÉES :
+
+🔬 COMPOSITION NUTRITIONNELLE :
+• Protéines brutes :
+  - Classe A (Premium) : > 67%
+  - Classe B (Standard) : 65 - 67%
+  - Classe C (Économique) : < 65%
+• Humidité : 6 - 8% (contrôle strict pour conservation optimale)
+• Matière grasse : ≤ 12% (extraction contrôlée)
+• Cendres totales : ≤ 20% (minéraux naturels)
+
+🛡️ SÉCURITÉ ET CONTAMINANTS (Conformité UE) :
+• Dioxines/PCDD/F : ≤ 0,75 ng TEQ/kg (seuil d'alerte respecté)
+• Métaux lourds :
+  - Plomb (Pb) : ≤ 10 mg/kg
+  - Arsenic (As) : ≤ 25 mg/kg
+  - Mercure (Hg) : ≤ 0,5 mg/kg
+• Microbiologie :
+  - Salmonelles : Absence garantie dans 25g
+  - Toxines botuliques : Contrôle systématique
+
+🧪 ADDITIFS AUTORISÉS :
+• Antioxydants BHT/BHA : 800 - 1000 ppm (conservation optimale)
+
+✅ AVANTAGES CLÉS :
+• Haute digestibilité et valeur nutritionnelle
+• Profils protéiques adaptés selon les besoins spécifiques
+• Contrôle qualité multi-niveaux (réception, production, expédition)
+• Respect strict des seuils européens pour tous les contaminants
+• Sécurité microbiologique garantie par analyses systématiques
+• Traçabilité complète lot par lot avec documentation chronologique
+
+📦 CONDITIONNEMENT PROFESSIONNEL :
+• Sacs de 50 kg (PE+PP double protection)
+• Big Bags de 1200 kg (manipulation industrielle)
+• Livraison possible en vrac ou conditionnement personnalisé
+
+🏪 CONDITIONS DE STOCKAGE :
+• Durée de conservation : 18 mois à température ambiante
+• Stockage en lieu sec et aéré (palettes ou rayonnage)
+• Protection contre l'humidité et les nuisibles
+• Étiquetage et traçabilité par numéro de lot"
+                     data-product-origin="Usine LAAYOUNE PROTEINE - Zone Industrielle Port de Laâyoune, B.P N°41, Maroc"
+                     data-product-season="Production continue toute l'année (capacité 500 tonnes/jour)"
+                     data-product-packaging="Sacs 50kg (PE+PP), Big Bags 1200kg, Vrac sur demande, Conditionnement personnalisé disponible">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.40.jpeg" alt="Farine de Poisson">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Farine de Poisson pour Alimentation Animale</h3>
+                        <p>
+                            Matière première premium pour l'alimentation animale, conforme aux normes sanitaires européennes.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Product 6 -->
+                <div class="product-card animate-on-scroll fade-in" data-category="processed"
+                     data-product-name="Huile de Poisson pour Applications Industrielles"
+                     data-product-description="Huile de poisson raffinée non destinée à la consommation humaine, spécialement développée pour les secteurs pharmaceutique, piscicole et cosmétique. Produit de haute pureté conforme aux normes internationales les plus strictes avec garantie de qualité et traçabilité complète. Référence produit : FT-MQ-06-A."
+                     data-product-details="📋 SPÉCIFICATIONS TECHNIQUES DÉTAILLÉES :
+
+🧬 ACIDES GRAS ESSENTIELS :
+• EPA (Acide Eicosapentaénoïque) : ≥ 18%
+• DHA (Acide Docosahexaénoïque) : ≥ 12%
+• Profil optimal pour applications haut de gamme
+
+🔬 INDICES DE QUALITÉ (Norme Codex Alimentarius) :
+• Indice de Peroxyde : ≤ 5 mEq/kg (fraîcheur garantie)
+• Indice d'Anisidine : < 20 (stabilité oxydative)
+• TOTOX (Total Oxidation) : < 26 (qualité globale)
+• Acidité : 175 μg/kg ≈ 0.0175% (10x inférieure aux seuils critiques >2 mg/kg)
+
+🧪 CORRÉLATION QUALITÉ-STABILITÉ :
+L'acidité est corrélée à l'indice d'anisidine (<20) et de peroxyde (≤5 mEq/kg) dans le calcul TOTOX (<26), formant un triplet garant de la stabilité lipidique optimale.
+
+🛡️ AVANTAGES DE LA FAIBLE ACIDITÉ :
+1️⃣ Stabilité accrue : Réduction du rancissement oxydatif grâce à la limitation des acides gras libres
+2️⃣ Compatibilité industrielle : Adaptée aux procédés pharmaceutiques sensibles aux variations de pH
+3️⃣ Conservation des oméga-3 : Protection de l'intégrité des chaînes EPA/DHA (>18% et >12% respectivement)
+
+🛡️ CONTAMINANTS ET SÉCURITÉ :
+• Dioxines/PCDD/F : ≤ 4 ng TEQ/kg (seuil d'alerte respecté)
+• Hydrocarbures : ≤ 3000 mg/kg (conformité GMP+)
+• Camphechlore : ≤ 0.2 mg/kg (pesticides contrôlés)
+
+🧪 COMPOSITION DÉTAILLÉE :
+• Lipides : 36% d'acides gras mono-insaturés
+• Vitamine E naturelle : 5.9 mg/100g (antioxydant naturel)
+• Densité : 0.9255 à 20°C (contrôle qualité)
+
+🎨 CARACTÉRISTIQUES ORGANOLEPTIQUES :
+• Aspect : Liquide homogène
+• Couleur : Rouge-brun caractéristique
+• Odeur : Typique marine, sans altération
+
+✅ AVANTAGES CLÉS :
+• Richesse exceptionnelle en oméga-3 EPA/DHA
+• Stabilité optimisée pour conservation prolongée
+• Indices de qualité contrôlés selon standards internationaux
+• Polyvalence d'applications industrielles
+• Conformité réglementaire pharmaceutique et cosmétique
+• Traçabilité complète de la matière première au produit fini
+
+📦 CONDITIONNEMENT INDUSTRIEL :
+• Citernes inertées : 500T à 1200T (stockage optimal)
+• Flexitanks : Transport sécurisé
+• Tanks spécialisés : Livraison en vrac par bateau
+• Conditionnement personnalisé sur demande
+
+🏪 CONDITIONS DE STOCKAGE :
+• Durée de conservation : 18 mois après production
+• Stockage à température ambiante en citernes inertées
+• Protection contre l'oxydation et la contamination
+• Contrôle qualité périodique durant stockage
+
+📜 CONFORMITÉ RÉGLEMENTAIRE :
+• Directive UE 2002/32/CE (contaminants alimentaires)
+• Normes GMP+ (bonnes pratiques de fabrication)
+• Références Codex Alimentarius (qualité lipidique)
+• Standards pharmaceutiques et cosmétiques"
+                     data-product-origin="Usine LAAYOUNE PROTEINE - Zone Industrielle Port de Laâyoune, B.P N°41, Maroc"
+                     data-product-season="Production continue toute l'année (capacité 500 tonnes/jour)"
+                     data-product-packaging="Citernes inertées 500T-1200T, Flexitanks, Vrac par bateau, Conditionnement personnalisé">
+                    <div class="product-image clickable-image">
+                        <img src="assets/images/hero-time-less/WhatsApp Image 2025-05-25 at 12.01.41.jpeg" alt="Huile de Poisson">
+                        <div class="image-overlay">
+                            <i class="fas fa-search-plus"></i>
+                            <span>Voir les détails</span>
+                        </div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Huile de Poisson pour Applications Industrielles</h3>
+                        <p>
+                            Huile raffinée haute pureté pour secteurs pharmaceutique, piscicole et cosmétique.
+                        </p>
+                        <button class="btn btn-primary product-details-btn">
+                            <i class="fas fa-info-circle"></i> Détails
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Details Modal -->
+    <div id="productModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalProductName"></h2>
+                <span class="modal-close">&times;</span>
+            </div>
+            <div class="modal-body">
+                <div class="modal-image">
+                    <img id="modalProductImage" src="" alt="">
+                </div>
+                <div class="modal-details">
+                    <div class="detail-section">
+                        <h3><i class="fas fa-info-circle"></i> Description</h3>
+                        <p id="modalProductDescription"></p>
+                    </div>
+                    <div class="detail-section">
+                        <h3><i class="fas fa-list-ul"></i> Détails Techniques</h3>
+                        <p id="modalProductDetails"></p>
+                    </div>
+                    <div class="detail-grid">
+                        <div class="detail-item">
+                            <h4><i class="fas fa-map-marker-alt"></i> Origine</h4>
+                            <p id="modalProductOrigin">Usine LAAYOUNE PROTEINE - Zone Industrielle Port de Laâyoune,<br>B.P N°41, Maroc</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4><i class="fas fa-calendar-alt"></i> Saison</h4>
+                            <p id="modalProductSeason">Production continue toute l'année<br>(capacité 500 tonnes/jour)</p>
+                        </div>
+                        <div class="detail-item">
+                            <h4><i class="fas fa-box"></i> Conditionnement</h4>
+                            <p id="modalProductPackaging">Sacs 50kg (PE+PP), Big Bags 1200kg,<br>Vrac sur demande, Conditionnement personnalisé disponible</p>
+                        </div>
+                    </div>
+                    <div class="modal-actions">
+                        <a href="contact.html" class="btn btn-primary">
+                            <i class="fas fa-envelope"></i> Nous Contacter
+                        </a>
+                        <button class="btn btn-secondary" onclick="closeModal()">
+                            <i class="fas fa-times"></i> Fermer
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Quality Assurance -->
+    <section class="quality-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in">Notre Engagement Qualité</h2>
+            <div class="quality-content">
+                <div class="quality-text">
+                    <p class="animate-on-scroll fade-in">
+                        Chez Groupe Razama, la qualité est notre priorité absolue. Tous nos produits sont soumis
+                        à des contrôles rigoureux à chaque étape du processus, de la capture à l'emballage.
+                    </p>
+                    <p class="animate-on-scroll fade-in">
+                        Nous sommes fiers de respecter les normes internationales les plus strictes en matière
+                        de sécurité alimentaire et de qualité des produits.
+                    </p>
+                </div>
+                <div class="quality-badges animate-on-scroll slide-in-right">
+                    <div class="badge">
+                        <img src="assets/images/iso 9001.png" alt="Certification ISO 9001">
+                    </div>
+                    <div class="badge">
+                        <img src="assets/images/onssa.png" alt="Certification ONSSA">
+                    </div>
+                    <div class="badge">
+                        <img src="assets/images/export.png" alt="Certification Export">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.svg" alt="Groupe Razama Logo">
+                    <p>Excellence et innovation dans le secteur maritime depuis des décennies.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="apropos.html">À Propos</a></li>
+                        <li><a href="activites.html">Activités</a></li>
+                        <li><a href="produits.html">Produits</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3>Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <span>ZI Port Laâyoune, B.P N°41, Maroc</span></p>
+                    <p><i class="fas fa-phone"></i> <span>+212 5XX XX XX XX</span></p>
+                    <p><i class="fas fa-envelope"></i> <span>contact@grouperazama.com</span></p>
+                </div>
+                <div class="footer-social">
+                    <h3>Suivez-nous</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Groupe Razama. <span>Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
+</body>
+</html>

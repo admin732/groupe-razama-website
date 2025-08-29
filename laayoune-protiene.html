@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groupe Razama - LAAYOUNE PROTIENE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header with Navigation -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assets/images/logo.svg" alt="Groupe Razama Logo">
+                </a>
+            </div>
+            <nav class="nav">
+                <button class="nav-toggle" aria-label="Toggle Navigation">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li class="has-dropdown">
+                        <a href="#">Groupe</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="apropos.html">À Propos</a></li>
+                            <li><a href="sogsaco.html">SOGSACO</a></li>
+                            <li><a href="aspam.html">ASPAM</a></li>
+                            <li><a href="laayoune-protiene.html" class="active">LAAYOUNE PROTIENE</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="activites.html">Activités</a></li>
+                    <li><a href="produits.html">Produits</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Banner -->
+    <section class="page-banner">
+        <div class="container">
+            <div class="banner-content animate-on-scroll fade-in">
+                <div class="banner-logo">
+                    <img src="assets/images/lp.jpeg" alt="LAAYOUNE PROTIENE Logo">
+                </div>
+                <h1 class="banner-title" data-lang-key="laayoune.title">LAAYOUNE PROTIENE</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Company Overview Section -->
+    <section class="company-section">
+        <div class="container">
+            <div class="company-content">
+                <div class="company-image animate-on-scroll slide-in-left">
+                    <div class="carousel-container">
+                        <div class="carousel-slide active">
+                            <img src="assets/images/hero-time-less/lp1.jpeg" alt="LAAYOUNE PROTIENE - Image 1">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/images/hero-time-less/lp2.jpeg" alt="LAAYOUNE PROTIENE - Image 2">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/images/hero-time-less/lp3.jpeg" alt="LAAYOUNE PROTIENE - Image 3">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/images/hero-time-less/lp4.jpeg" alt="LAAYOUNE PROTIENE - Image 4">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/images/hero-time-less/lp5.jpeg" alt="LAAYOUNE PROTIENE - Image 5">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/images/hero-time-less/lp6.jpeg" alt="LAAYOUNE PROTIENE - Image 6">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/images/hero-time-less/lp7.jpeg" alt="LAAYOUNE PROTIENE - Image 7">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/images/hero-time-less/lp8.jpeg" alt="LAAYOUNE PROTIENE - Image 8">
+                        </div>
+                        <div class="carousel-slide">
+                            <img src="assets/images/hero-time-less/lp9.jpeg" alt="LAAYOUNE PROTIENE - Image 9">
+                        </div>
+
+                        <!-- Carousel Navigation Arrows -->
+                        <button class="carousel-arrow carousel-arrow-left" onclick="changeSlide(-1)">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <button class="carousel-arrow carousel-arrow-right" onclick="changeSlide(1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+                <div class="company-text">
+                    <h2 class="section-title animate-on-scroll fade-in" data-lang-key="laayoune.overview.title">Présentation</h2>
+                    <p class="animate-on-scroll fade-in" data-lang-key="laayoune.overview.p1">
+                        STE LAÂYOUNE PROTEINE est une filiale phare du Groupe Razama, spécialisée dans la
+                        production de farine et huile de poisson. Notre entreprise est certifiée selon les standards
+                        internationaux ISO 9001, GMP+, HACCP et IFFO RS, garantissant la qualité et la sécurité
+                        de nos produits.
+                    </p>
+                    <p class="animate-on-scroll fade-in" data-lang-key="laayoune.overview.p2">
+                        Avec une capacité de production de 500 tonnes par jour, nous transformons le poisson en
+                        deux produits stratégiques : la farine de poisson utilisée dans l'alimentation animale, et
+                        l'huile de poisson destinée aux industries alimentaires, cosmétiques et pharmaceutiques.
+                    </p>
+                    <div class="company-details animate-on-scroll fade-in">
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>ZI Port Laâyoune, B.P N°41, Maroc</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-envelope"></i>
+                            <span>contact@laayouneproteine.ma</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-industry"></i>
+                            <span>Capacité de production : 500 tonnes/jour</span>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-certificate"></i>
+                            <span>Certifications : ISO 9001, GMP+, HACCP, IFFO RS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in">Nos Produits</h2>
+            <div class="products-grid">
+                <div class="product-card animate-on-scroll fade-in">
+                    <div class="product-image">
+                        <img src="assets/images/farin.jpeg" alt="Farine de Poisson">
+                    </div>
+                    <div class="product-info">
+                        <h3>Farine de Poisson</h3>
+                        <p>
+                            Farine de poisson de haute qualité, riche en protéines et nutriments essentiels,
+                            idéale pour l'alimentation animale et l'aquaculture.
+                        </p>
+                    </div>
+                </div>
+                <div class="product-card animate-on-scroll fade-in">
+                    <div class="product-image">
+                        <img src="assets/images/fishoil.jpg" alt="Huile de Poisson">
+                    </div>
+                    <div class="product-info">
+                        <h3>Huile de Poisson</h3>
+                        <p>
+                            Huile de poisson pure, riche en acides gras oméga-3, extraite selon des procédés
+                            respectueux de l'environnement.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="activities-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in" data-lang-key="laayoune.process.title">Notre Processus de Production</h2>
+            <p class="section-intro animate-on-scroll fade-in" data-lang-key="laayoune.process.intro">
+                Notre processus de fabrication intègre plus de 15 étapes rigoureuses, chacune contrôlée par des experts
+                et des équipements de haute technologie comme des séparateurs, évaporateurs et cuiseurs à vapeur.
+            </p>
+            <div class="activities-grid">
+                <div class="activity-card animate-on-scroll fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.process.step1.title">Sélection des Matières Premières</h3>
+                    <p data-lang-key="laayoune.process.step1.description">
+                        Sélection rigoureuse des matières premières marines de haute qualité avec contrôle à réception.
+                    </p>
+                </div>
+                <div class="activity-card animate-on-scroll fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-fire"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.process.step2.title">Cuisson</h3>
+                    <p data-lang-key="laayoune.process.step2.description">
+                        Cuisson contrôlée à la vapeur pour préserver les qualités nutritionnelles et faciliter l'extraction.
+                    </p>
+                </div>
+                <div class="activity-card animate-on-scroll fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-compress"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.process.step3.title">Pressage</h3>
+                    <p data-lang-key="laayoune.process.step3.description">
+                        Pressage mécanique pour séparer les liquides (eau et huile) des solides.
+                    </p>
+                </div>
+                <div class="activity-card animate-on-scroll fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-filter"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.process.step4.title">Décantation et Séparation</h3>
+                    <p data-lang-key="laayoune.process.step4.description">
+                        Séparation des composants (solides, huiles, eau) par décantation et centrifugation.
+                    </p>
+                </div>
+                <div class="activity-card animate-on-scroll fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-wind"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.process.step5.title">Séchage</h3>
+                    <p data-lang-key="laayoune.process.step5.description">
+                        Séchage contrôlé des solides pour obtenir la farine de poisson avec le taux d'humidité optimal.
+                    </p>
+                </div>
+                <div class="activity-card animate-on-scroll fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.process.step6.title">Broyage et Ensachage</h3>
+                    <p data-lang-key="laayoune.process.step6.description">
+                        Broyage de la farine pour obtenir la granulométrie désirée, puis ensachage dans des emballages adaptés.
+                    </p>
+                </div>
+                <div class="activity-card animate-on-scroll fade-in">
+                    <div class="activity-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.process.step7.title">Contrôle Qualité</h3>
+                    <p data-lang-key="laayoune.process.step7.description">
+                        Analyses rigoureuses en laboratoire pour garantir la qualité et la conformité aux normes internationales.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Quality Section -->
+    <section class="quality-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in" data-lang-key="laayoune.sustainability.title">Qualité et Durabilité</h2>
+            <div class="quality-content">
+                <div class="quality-text">
+                    <p class="animate-on-scroll fade-in" data-lang-key="laayoune.sustainability.p1">
+                        Chez STE LAÂYOUNE PROTEINE, nous plaçons la sécurité alimentaire, la qualité et la durabilité
+                        au cœur de nos priorités. Chaque produit est rigoureusement analysé et validé pour garantir
+                        la conformité réglementaire internationale, une traçabilité complète et un impact environnemental maîtrisé.
+                    </p>
+                    <p class="animate-on-scroll fade-in" data-lang-key="laayoune.certifications.title">
+                        Nos certifications garantissent la qualité et la sécurité de nos produits :
+                    </p>
+                    <ul class="quality-list animate-on-scroll fade-in">
+                        <li>
+                            <i class="fas fa-certificate"></i> ISO 9001 & 2008 – Gestion de la qualité
+                        </li>
+                        <li>
+                            <i class="fas fa-shield-alt"></i> GMP+ B2 – Bonnes pratiques de fabrication
+                        </li>
+                        <li>
+                            <i class="fas fa-check-circle"></i> HACCP – Analyse des dangers et points critiques
+                        </li>
+                        <li>
+                            <i class="fas fa-fish"></i> IFFO RS – Responsabilité et durabilité
+                        </li>
+                    </ul>
+                </div>
+                <div class="quality-badges animate-on-scroll slide-in-right">
+                    <div class="badge">
+                        <img src="assets/images/iso9001.png" alt="Certification ISO 9001">
+                    </div>
+                    <div class="badge">
+                        <img src="assets/images/gmp.png" alt="Certification GMP+">
+                    </div>
+                    <div class="badge">
+                        <img src="assets/images/haccp.png" alt="Certification HACCP">
+                    </div>
+                    <div class="badge">
+                        <img src="assets/images/iffo.png" alt="Certification IFFO RS">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strengths Section -->
+    <section class="strengths-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in" data-lang-key="laayoune.values.title">Nos Valeurs</h2>
+            <div class="strengths-grid">
+                <div class="strength-card animate-on-scroll fade-in">
+                    <div class="strength-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.values.innovation.title">Innovation</h3>
+                    <p data-lang-key="laayoune.values.innovation.description">Processus modernisés et digitalisés</p>
+                </div>
+                <div class="strength-card animate-on-scroll fade-in">
+                    <div class="strength-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.values.quality.title">Qualité</h3>
+                    <p data-lang-key="laayoune.values.quality.description">Produits conformes aux plus hauts standards</p>
+                </div>
+                <div class="strength-card animate-on-scroll fade-in">
+                    <div class="strength-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.values.responsibility.title">Responsabilité</h3>
+                    <p data-lang-key="laayoune.values.responsibility.description">Respect de l'environnement et des normes sociales</p>
+                </div>
+                <div class="strength-card animate-on-scroll fade-in">
+                    <div class="strength-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.values.performance.title">Performance</h3>
+                    <p data-lang-key="laayoune.values.performance.description">Optimisation continue des ressources et équipements</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Objectives Section -->
+    <section class="strengths-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in" data-lang-key="laayoune.objectives.title">Nos Objectifs</h2>
+            <div class="strengths-grid">
+                <div class="strength-card animate-on-scroll fade-in">
+                    <div class="strength-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <p data-lang-key="laayoune.objectives.capacity">
+                        Accroître notre capacité de production pour répondre à la demande croissante mondiale.
+                    </p>
+                </div>
+                <div class="strength-card animate-on-scroll fade-in">
+                    <div class="strength-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <p data-lang-key="laayoune.objectives.export">
+                        Renforcer notre réseau d'exportation en Afrique, Europe, et au Moyen-Orient.
+                    </p>
+                </div>
+                <div class="strength-card animate-on-scroll fade-in">
+                    <div class="strength-icon">
+                        <i class="fas fa-fish"></i>
+                    </div>
+                    <p data-lang-key="laayoune.objectives.products">
+                        Développer de nouveaux produits à base de ressources halieutiques.
+                    </p>
+                </div>
+                <div class="strength-card animate-on-scroll fade-in">
+                    <div class="strength-icon">
+                        <i class="fas fa-digital-tachograph"></i>
+                    </div>
+                    <p data-lang-key="laayoune.objectives.digital">
+                        Investir dans la digitalisation de la gestion commerciale et des stocks via des solutions comme SAGE Commercial.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internal Services Section -->
+    <section class="services-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll fade-in" data-lang-key="laayoune.services.title">Nos Services Intégrés</h2>
+            <div class="services-grid">
+                <div class="service-card animate-on-scroll fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.services.hr.title">Service Ressources Humaines</h3>
+                    <ul class="service-list">
+                        <li data-lang-key="laayoune.services.hr.item1">Gestion des recrutements, salaires, congés et maladies.</li>
+                        <li data-lang-key="laayoune.services.hr.item2">Suivi du climat social et disciplinaire.</li>
+                        <li data-lang-key="laayoune.services.hr.item3">Gestion des relations avec la CNSS et assurances.</li>
+                    </ul>
+                </div>
+                <div class="service-card animate-on-scroll fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.services.finance.title">Service Financier</h3>
+                    <ul class="service-list">
+                        <li data-lang-key="laayoune.services.finance.item1">Suivi des dépenses et investissements.</li>
+                        <li data-lang-key="laayoune.services.finance.item2">Élaboration des budgets et états financiers.</li>
+                        <li data-lang-key="laayoune.services.finance.item3">Analyse de la santé financière de l'entreprise.</li>
+                    </ul>
+                </div>
+                <div class="service-card animate-on-scroll fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-calculator"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.services.accounting.title">Service Comptabilité</h3>
+                    <ul class="service-list">
+                        <li data-lang-key="laayoune.services.accounting.item1">Traitement des factures d'achat et de vente.</li>
+                        <li data-lang-key="laayoune.services.accounting.item2">Comptabilisation via le logiciel SAGE.</li>
+                        <li data-lang-key="laayoune.services.accounting.item3">Archivage et gestion documentaire.</li>
+                    </ul>
+                </div>
+                <div class="service-card animate-on-scroll fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.services.purchasing.title">Service Achats</h3>
+                    <ul class="service-list">
+                        <li data-lang-key="laayoune.services.purchasing.item1">Identification des besoins internes.</li>
+                        <li data-lang-key="laayoune.services.purchasing.item2">Consultation de fournisseurs, gestion des bons de commande.</li>
+                        <li data-lang-key="laayoune.services.purchasing.item3">Contrôle budgétaire des achats.</li>
+                    </ul>
+                </div>
+                <div class="service-card animate-on-scroll fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.services.quality.title">Service Qualité</h3>
+                    <ul class="service-list">
+                        <li data-lang-key="laayoune.services.quality.item1">Suivi des normes ISO 9001, GMP+, HACCP et IFFO RS.</li>
+                        <li data-lang-key="laayoune.services.quality.item2">Contrôle qualité des produits et audits internes.</li>
+                        <li data-lang-key="laayoune.services.quality.item3">Gestion des actions correctives et obtention des certifications.</li>
+                    </ul>
+                </div>
+                <div class="service-card animate-on-scroll fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.services.production.title">Service Production</h3>
+                    <ul class="service-list">
+                        <li data-lang-key="laayoune.services.production.item1">Production de farine et huile de poisson.</li>
+                        <li data-lang-key="laayoune.services.production.item2">Contrôle des processus de fabrication et équipements.</li>
+                    </ul>
+                </div>
+                <div class="service-card animate-on-scroll fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-box"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.services.packaging.title">Service Emballage</h3>
+                    <ul class="service-list">
+                        <li data-lang-key="laayoune.services.packaging.item1">Mise en conditionnement des produits pour la vente et l'export.</li>
+                        <li data-lang-key="laayoune.services.packaging.item2">Respect des normes de conservation et de logistique.</li>
+                    </ul>
+                </div>
+                <div class="service-card animate-on-scroll fade-in">
+                    <div class="service-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 data-lang-key="laayoune.services.commercial.title">Service Commercial</h3>
+                    <ul class="service-list">
+                        <li data-lang-key="laayoune.services.commercial.item1">Vente des produits finis localement et à l'international.</li>
+                        <li data-lang-key="laayoune.services.commercial.item2">Négociation commerciale, suivi des règlements.</li>
+                        <li data-lang-key="laayoune.services.commercial.item3">Coordination des opérations de transit et dédouanement.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission and Vision Section -->
+    <section class="mission-vision-section">
+        <div class="container">
+            <div class="mission-vision-content">
+                <div class="mission-block animate-on-scroll slide-in-left">
+                    <h2 class="section-title" data-lang-key="laayoune.mission.title">Mission de l'entreprise</h2>
+                    <p data-lang-key="laayoune.mission.description">
+                        Chez STE LAÂYOUNE PROTEINE, nous aspirons à être un acteur de référence dans le domaine de la production
+                        de farine et d'huile de poisson, en combinant qualité, performance industrielle et respect de l'environnement,
+                        tout en répondant aux besoins spécifiques de chaque client.
+                    </p>
+                </div>
+                <div class="vision-block animate-on-scroll slide-in-right">
+                    <h2 class="section-title" data-lang-key="laayoune.vision.title">Vision</h2>
+                    <p data-lang-key="laayoune.vision.description">
+                        Être un leader reconnu au niveau régional et international dans la production de farine et d'huile de poisson,
+                        grâce à une politique de qualité rigoureuse, une infrastructure performante et des partenariats durables.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/images/logo.svg" alt="Groupe Razama Logo">
+                    <p data-lang-key="footer.description">Excellence et innovation dans le secteur maritime depuis des décennies.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Liens Rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="apropos.html">À Propos</a></li>
+                        <li><a href="activites.html">Activités</a></li>
+                        <li><a href="produits.html">Produits</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h3 data-lang-key="footer.contact">Contact</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> <span data-lang-key="footer.address">ZI Port Laâyoune, B.P N°41, Maroc</span></p>
+                    <p><i class="fas fa-phone"></i> <span>+212 5XX XX XX XX</span></p>
+                    <p><i class="fas fa-envelope"></i> <span>contact@grouperazama.com</span></p>
+                </div>
+                <div class="footer-social">
+                    <h3 data-lang-key="footer.followUs">Suivez-nous</h3>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Groupe Razama. <span data-lang-key="footer.rights">Tous droits réservés.</span></p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/language.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
